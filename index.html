@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+	<head>
+	</head>
+	<body ng-app="drawmap">
+		<img src="planets.gif" width="145" height="126" usemap="#planetmap" />
+		<map name="planetmap" drawn>
+		    <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm" />
+		    <area shape="circ" coords="90,58,3" alt="Mercury" href="mercur.htm" />
+		    <area shape="circ" coords="124,58,8" alt="Venus" href="venus.htm" />
+		</map>
+
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+		<script src="map.js"></script>
+	</body>
+</html>
